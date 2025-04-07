@@ -12,7 +12,7 @@ export const AppDataSource = new DataSource({
     username: "root",
     password: "root",
     database: "AtividadeTypeORM",
-    synchronize: false,
+    synchronize: true,
     logging: false,
     entities: [Categoria,Produto],
     migrations: [MigrationInterfacesCategoriasProdutos1743732107631],
